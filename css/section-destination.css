@@ -1,0 +1,54 @@
+.destinations {
+    margin: 80px auto;
+    width: 100%;
+}
+
+.destination-img {
+    border-radius: 16px;
+}
+
+.destination-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.destination-list li {
+    position: relative;
+    display: inline;
+    margin: 35px;
+}
+
+.destination-img {
+    width: 600px;
+}
+
+.destination-name {
+    position: absolute;
+    left: 8px;
+    bottom: 40px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: white;
+}
+
+.position-indicator {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.indicator {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgba(242, 120, 92, 0.5);
+}
+
+.indicator-center {
+    background-color: rgba(242, 120, 92, 1) ;
+}

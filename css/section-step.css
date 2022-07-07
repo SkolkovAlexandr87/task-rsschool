@@ -1,0 +1,31 @@
+.steps {
+    margin: 80px auto;
+    width: 100%;
+}
+
+h2 {
+    color: rgb(242, 120, 92);
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.block-steps {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 60px;
+}
+
+figure {
+    margin: 0 auto;
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    color: rgb(13, 96, 111);
+    margin-top: 20px;
+}
+
