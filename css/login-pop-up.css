@@ -1,0 +1,66 @@
+.login-pop-up {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 650px;
+    height: 660px;
+    background: linear-gradient(180deg, white, rgba(13, 96, 111, 0.7));
+    border-radius: 16px;
+}
+
+.login-pop-up h3 {
+    font-family: 'Aleo', serif;
+    font-size: 32px;
+    color:rgba(13, 96, 111, 0.5);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.button-facebook,
+.button-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:560px;
+    padding: 10px 0;
+    background-color: rgb(24, 119, 242);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.button-google {
+    background-color: white;
+}
+
+.button-facebook img,
+.button-google img {
+    padding: 5px;
+}
+
+.button-google span {
+   color: rgba(13, 96, 111);
+}
+
+.button-facebook span {
+    color: white;
+}
+
+.button-facebook span,
+.button-google span {
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+fieldset {
+    
+}
+
+legend {
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgba(13, 96, 111, 0.5);
+    margin: 0 auto;
+}

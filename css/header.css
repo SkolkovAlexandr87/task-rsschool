@@ -4,13 +4,17 @@ header {
     align-items: center;
     flex-wrap: wrap;
     padding: 25px 6.5%;
-    max-width: 1440px;
     background-color: rgba(242, 119, 92, 0.7);
 }
 .textLogo {
     font-family: 'Magra', sans-serif;
     font-size: 32px;
     color:white;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
 }
 
 header li {
@@ -33,4 +37,12 @@ header li {
     border: none;
     box-shadow: 0px 4px 4px rgba(59, 56, 56, 0.25);
     cursor: pointer;
+ }
+
+
+ @media (max-width: 1044px) {
+    header {
+        justify-content: center;
+        flex-direction: column;
+    }
  }
