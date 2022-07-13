@@ -1,11 +1,35 @@
-.login-pop-up {
+.main-pop-up {
     position: absolute;
-    top: 40px;
-    right: 40px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.1s linear 0.3s;
+}
+
+.relative-block-pop-up {
+    position: relative;
+    top: 0;
+    left: 670px;
     width: 650px;
     height: 660px;
-    background: linear-gradient(180deg, white, rgba(13, 96, 111, 0.7));
     border-radius: 16px;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in 0.3s;
+}
+
+.login-pop-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, white, #8FB5BC);
+    padding-top: 0px;
 }
 
 .login-pop-up h3 {
@@ -26,7 +50,7 @@
     padding: 10px 0;
     background-color: rgb(24, 119, 242);
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .button-google {
@@ -52,15 +76,105 @@
     font-size: 20px;
     padding: 5px;
 }
-
-fieldset {
-    
+.form-pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    padding: 0 40px;
 }
 
-legend {
-    font-family: 'Aleo', serif;
+.form-pop-up .title {
     font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.title .text {
+    display: inline-block;
+    padding: 0 18px;
+    position: relative;
+    font-family: 'Aleo', serif;
     font-weight: bold;
     color:rgba(13, 96, 111, 0.5);
-    margin: 0 auto;
+}
+
+.title .line-before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    width: 46%;
+    height: 1px;
+    background: rgba(13, 96, 111, 0.5);
+}
+
+.title .line-after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    width: 46%;
+    height: 1px;
+    background: rgba(13, 96, 111, 0.5);
+}
+
+.span-e-mail,
+.span-password {
+   display: inline-block;
+   font-family: 'Aleo', serif;
+   font-size: 16px;
+   color: rgb(13, 96, 111);
+   margin: 10px 0 5px 5px;
+}
+
+input[type="e-mail"],
+input[type="password"],
+input[type="buttom"] {
+   width: 560px;
+   height: 56px;
+   border-radius: 10px;
+   border: none;
+   margin: 5px auto;
+}
+
+input[type="buttom"] {
+    text-align: center;
+    background-color: rgb(13, 96, 111);
+    margin-top: 20px;
+    font-family: 'Red Hat Text', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.forgot-your-password {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Aleo', serif;
+    font-size: 15px;
+    color:rgb(13, 96, 111);
+}
+
+.hr-form {
+    display: block;
+    margin: 20px auto;
+    width: 560px;
+    height: 1px;
+    background: rgb(13, 96, 111);
+}
+
+.login-pop-up p {
+    font-family: 'Aleo', serif;
+    font-size: 15px;
+    text-align: center;
+    color:rgba(13, 96, 111, 0.5);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.login-pop-up p a {
+    color:rgb(13, 96, 111);
 }

@@ -1,0 +1,15 @@
+.button-seeMore {
+    padding: 13px 42px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(13, 96, 111);
+    border-radius: 10px;
+    border: none;
+    margin: 10px auto;
+}
+
+.block-stories .button-seeMore {
+    margin-top: 45px;
+    margin-bottom: 40px;
+}

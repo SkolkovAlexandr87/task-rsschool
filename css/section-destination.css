@@ -1,5 +1,9 @@
 .destinations {
-    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px auto;
+    margin-bottom: 0;
     width: 100%;
 }
 
@@ -7,27 +11,26 @@
     border-radius: 16px;
 }
 
-.destination-list {
+.distinations h2 {
+   margin-top: 40px;
+}
+
+.block-list-images {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 45px;
     overflow: hidden;
 }
 
-.destination-list li {
-    position: relative;
-    display: inline;
-    margin: 35px;
-}
-
 .destination-img {
-    width: 600px;
+    width: 800px;
+    
 }
 
 .destination-name {
     position: absolute;
-    left: 8px;
+    left: 14px;
     bottom: 40px;
     font-family: 'Red Hat Text', sans-serif;
     font-size: 32px;
@@ -37,18 +40,23 @@
 }
 
 .position-indicator {
-    margin: 0 auto;
+    margin: 25px auto;
     text-align: center;
 }
 
 .indicator {
     display: inline-block;
     padding: 10px;
-    margin: 5px;
+    margin: 3px;
     border-radius: 50%;
     background-color: rgba(242, 120, 92, 0.5);
 }
 
 .indicator-center {
     background-color: rgba(242, 120, 92, 1) ;
+}
+
+.box-distination-img {
+    position: relative;
+    margin:0 30px;
 }

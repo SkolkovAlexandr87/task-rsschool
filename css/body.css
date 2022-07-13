@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     position: relative;
     display:block;
@@ -13,3 +17,4 @@
     padding: 10px;
     background-color: rgba(0, 128, 0, 0.534);
 }
+
