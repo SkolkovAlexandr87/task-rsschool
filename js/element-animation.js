@@ -4,7 +4,7 @@ let textLogo = document.querySelector(".textLogo");
 let listInHeader = document.querySelector(".list-in-header").children;
 let count = 0;
 
-console.log(listInHeader.length);
+//console.log(listInHeader.length);
 
 window.addEventListener("load",elementAnimation);
 
@@ -18,7 +18,7 @@ function elementAnimation() {
     
     setTimeout(function() {
 
-       console.log("load");
+      // console.log("load");
 
       let intervalOccurrenceOflistItems = setInterval(() => {
          if (count == listInHeader.length - 1 ) {
@@ -35,7 +35,7 @@ function elementAnimation() {
 
        }, 500);
 
-    }, 2300);
+    }, 1800);
 }, 500);
 }
 

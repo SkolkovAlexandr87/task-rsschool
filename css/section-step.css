@@ -14,6 +14,7 @@ h2 {
 .block-steps {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 93%;
     margin: 45px auto;
 }
@@ -24,9 +25,29 @@ figure {
     text-align: center;
 }
 
-.icon-center {
-    padding-left: 70px;
+.icon-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.icon-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5.5%;
+}
+
+
+.icon-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 figcaption {
     font-family: 'Aleo', serif;
     font-size: 20px;
@@ -34,3 +55,49 @@ figcaption {
     margin-top: 20px;
 }
 
+
+
+@media (max-width: 1044px) {
+    
+}
+
+
+@media (max-width: 980px) {
+
+    h2 {
+        font-size: 35px;
+    }
+
+    .block-steps {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .figure-block {
+        width: 200px;
+    }
+
+    .icon-center {
+        justify-content: center;
+        padding-left: 0;
+        width: 160px;
+    }
+
+    figcaption {
+        font-size: 18px;
+    }
+}   
+
+@media (max-width: 656px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .figure-block {
+        width: 150px;
+    }
+
+    figcaption {
+        font-size: 16px;
+    }
+}

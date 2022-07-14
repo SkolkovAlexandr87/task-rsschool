@@ -23,4 +23,13 @@ footer {
     padding: 0 8px;
  }
 
- 
+ @media(max-width: 880px) {
+    footer {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .list-social-icons {
+       margin-top: 10px;
+    }
+ }

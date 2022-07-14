@@ -3,3 +3,17 @@
     height:765px;
     background-image: url(../images/garrett-parker-DlkF4-dbCOU-unsplash\ 1.png);
 }
+
+
+@media (max-width: 656px) {
+    .preview {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        background-size: cover;
+        padding-top: 40px;
+        padding-bottom: 65px;
+    }   
+}

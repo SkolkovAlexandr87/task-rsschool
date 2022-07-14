@@ -36,7 +36,7 @@ header {
 }
 
 .header-nav {
-   flex: 1;
+    flex: 1;
     margin-left: -55px;
 }
 
@@ -83,12 +83,49 @@ header li a:hover {
     cursor: pointer;
  }
 
+ .burger-menu {
+    display: none;
+ }
 
  @media (max-width: 1044px) {
     header {
         justify-content: center;
         flex-direction: column;
+        padding: 15px 3%;
     }
 
-    
+    .header-nav {
+        margin-left: -3%;
+    }
+ }
+
+
+
+
+ @media (max-width: 656px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap:no-wrap;
+        padding: 10px 8.5%;
+        background-color: rgba(242, 119, 92, 0.0);
+        box-shadow: none;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .textLogo {
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
  }
