@@ -1,4 +1,5 @@
 .destinations {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,6 +10,8 @@
 
 .destination-img {
     border-radius: 16px;
+    width: 800px; 
+    transition: all 0.5s ease-in 0.3s;
 }
 
 .distinations h2 {
@@ -16,6 +19,7 @@
 }
 
 .block-list-images {
+    position: relative;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -23,10 +27,6 @@
     overflow: hidden;
 }
 
-.destination-img {
-    width: 800px; 
-    
-}
 
 .destination-name {
     position: absolute;
@@ -61,6 +61,35 @@
     margin:0 30px;
 }
 
+.block-with-buttons-left-right {
+    visibility: hidden;
+    position: absolute;
+    top: 38%;
+    bottom: 52%;
+    left: 0;
+    right: 0; 
+}
+
+.relative-block-with-buttons {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin:0 auto;
+    width: 360px;
+    transition: all 0.5s ease-in 0.3s;
+}
+
+.img-button-left {
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.img-button-right {
+    position: absolute;
+    top: 6px;
+    right: 0;
+}
 
 @media (max-width: 1044px) {
     .destination-img {
@@ -72,4 +101,45 @@
     .destination-img {
         width: 450px;  
     }
+}
+
+@media (max-width: 656px) {
+    .destination-img {
+        width: 450px;  
+    }
+    .destination-name {
+        top: 15px;
+        left: 15px;
+        font-size: 24px;
+    }
+
+    .block-with-buttons-left-right {
+        visibility: visible;
+    }
+
+    .relative-block-with-buttons {
+        width: 450px;
+    }
+}
+
+@media (max-width: 480px) {
+    .destination-img {
+        width: 360px;  
+    }
+
+    .destination-name {
+        top: 15px;
+        left: 15px;
+        font-size: 20px;
+    }
+
+    .block-with-buttons-left-right {
+        top: 36%;
+        bottom: 54%;
+    }
+
+    .relative-block-with-buttons {
+        width: 360px;
+    }
+
 }

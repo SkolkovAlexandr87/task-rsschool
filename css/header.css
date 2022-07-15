@@ -83,8 +83,9 @@ header li a:hover {
     cursor: pointer;
  }
 
- .burger-menu {
+ .icon-burger-menu {
     display: none;
+    cursor: pointer;
  }
 
  @media (max-width: 1044px) {
@@ -125,7 +126,7 @@ header li a:hover {
         display: none;
     }
 
-    .burger-menu {
+    .icon-burger-menu {
         display: block;
     }
  }

@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/button-More.css">
+    <link rel="stylesheet" href="css/block-burger-menu.css">
     <link href="https://fonts.googleapis.com/css2?family=Magra:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Magra:wght@700&family=Red+Hat+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap" rel="stylesheet">
@@ -44,7 +45,7 @@
             </nav>
             <button class="button-header-login">Login</button>
 
-            <img class="burger-menu" src="images/eva_menu-outline.png" alt="pict-burger-menu">
+            <img class="icon-burger-menu" src="images/eva_menu-outline.png" alt="pict-burger-menu">
         </header>
 
         <form class="form-in-beginning" action="#">
@@ -82,8 +83,15 @@
 
         <div class="block-list-images">
             <div class="box-distination-img"><img class="destination-img" src="images/rectangle-1.jpg" alt="rectangle 1"> <span class="destination-name">SPAIN</span></div>
-            <div class="box-distination-img"><img class="destination-img" src="images/rectangle-2.jpg" alt="rectangle 2"><span class="destination-name">JAPAN</span></div>
-            <div class="box-distination-img"><img class="destination-img"  src="images/rectangle-3.jpg" alt="rectangle 3"><span class="destination-name">USA</span></div>
+            <div class="box-distination-img"><img class="destination-img" src="#" alt="rectangle 2"><span class="destination-name">JAPAN</span></div>
+            <div class="box-distination-img"><img class="destination-img" src="#" alt="rectangle 3"><span class="destination-name">USA</span></div>
+       </div>
+
+       <div class="block-with-buttons-left-right">
+          <div class="relative-block-with-buttons">
+             <img src="images/ep_arrow-left-bold.png" alt="pict-button-left" class="img-button-left">
+             <img src="images/ep_arrow-right-bold.png" alt="pict-button-right" class="img-button-right">  
+          </div>
         </div>
 
         <div class="position-indicator">
@@ -202,6 +210,23 @@
         </div>
      </div>
 
+
+    <div class="block-burger-menu">
+        <div class="relative-block-burger-menu">
+          <div class="box-burger-menu">
+            <img class="icon-close-menu" src="images/clarity_window-close-line.png" alt="pict-close-menu">
+
+            <ul class="list-burger-menu">
+                <li><a href="#works">How It Works</a></li>
+                <li><a href="#trips">Plan Your Trip</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#storyes">Travel Stories</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Social Media</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
     <div class="info-block"></div>
 
     <script asinc src="js/script.js"></script>
@@ -209,5 +234,6 @@
     <script asinc src="js/element-animation.js"></script>
     <script asinc src="js/scroll-animation.js"></script>
     <script asinc src="js/section-destination.js"></script>
+    <script src="js/burger-menu.js"></script>
 </body>
 </html>
