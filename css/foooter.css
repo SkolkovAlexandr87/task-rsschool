@@ -33,3 +33,25 @@ footer {
        margin-top: 10px;
     }
  }
+
+ @media (max-width: 480px) {
+    footer {
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .empty {
+        display: none;
+    }
+     .span-footer {
+        display: none;
+     }
+
+     .list-social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+     }
+ }

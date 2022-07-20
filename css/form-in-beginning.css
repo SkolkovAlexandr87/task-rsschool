@@ -127,11 +127,29 @@ input[type="submit"] {
 @media (max-width: 480px) {
     #search[value] {
         font-size: 14px;
-        word-spacing: 0.01em;
      }
 
      input[type="submit"] {
         font-size: 11px;
         padding: 7.5px 9px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .input {
+        padding: 4px;
+        min-width: 235px;
+    }
+
+    #search[value] {
+        font-size: 11px;
+        word-spacing: 0.01em;
+     }
+
+     input[type="submit"] {
+        font-size: 11px;
+        padding: 4px 7px;
+        font-size: 11px;
     }
 }

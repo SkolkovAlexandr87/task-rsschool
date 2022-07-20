@@ -1,0 +1,118 @@
+
+
+.relative-sign-up-pop-up {
+    position: relative;
+    top: 0px;
+    margin: 0 auto;
+    width: 45%;
+    min-width: 500px;
+    height: 436px;
+    border-radius: 16px;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in 0.2s;
+    display: none;
+}
+
+.sign-up-pop-up {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, white, #8FB5BC);
+    padding-top: 0px;
+}
+
+.sign-up-pop-up h3 {
+    font-family: 'Aleo', serif;
+    font-size: 32px;
+    color:rgba(13, 96, 111, 0.5);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.sign-up-form-pop-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7%;
+    margin-top: 10px;
+}
+
+.sign-up-span-e-mail,
+.sign-up-span-password {
+   display: inline-block;
+   font-family: 'Aleo', serif;
+   font-size: 16px;
+   color: rgb(13, 96, 111);
+   margin-top: 16px;
+}
+
+.sign-up-e-mail,
+.sign-up-password,
+.sign-up-buttom  {
+   width: 100%;
+   height: 50px;
+   border-radius: 10px;
+   border: none;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+
+.sign-up-pop-up p {
+    font-family: 'Aleo', serif;
+    font-size: 15px;
+    text-align: center;
+    color:rgba(13, 96, 111, 0.5);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.sign-up-pop-up a {
+    color:rgb(13, 96, 111);
+}
+
+@media (max-width: 1440px) {
+    .relative-sign-up-pop-up {
+     height: 410px;
+    }
+
+    .sign-up-pop-up h3 {
+        font-size: 28px;
+        margin-top: 25px;
+    }
+
+    .sign-up-e-mail,
+    .sign-up-password,
+    .sign-up-buttom {
+       height: 45px;
+    }
+}
+
+@media (max-width: 656px) {
+
+    .relative-sign-up-pop-up {
+       min-width: 350px;
+       height: 370px;
+    }
+
+    .sign-up-pop-up h3 {
+        font-size: 24px;
+        margin-top: 22px;
+    }
+
+    .sign-up-span-e-mail,
+    .sign-up-span-password {
+        margin-top: 5px;
+    }
+
+    .sign-up-e-mail,
+    .sign-up-password,
+    .sign-up-buttom {
+       height: 30px;
+       margin-top: 5px;
+    }
+
+}

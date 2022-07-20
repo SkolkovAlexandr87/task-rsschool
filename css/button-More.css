@@ -27,3 +27,28 @@
         padding: 9px 20px;
     }
 }
+
+@media (max-width: 480px) {
+    .button-seeMore {
+        margin: 0px auto;
+        font-size: 14px;
+        padding: 6px 16px;
+    }
+
+    .block-stories .button-seeMore {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .button-seeMore {
+        margin: 15px auto;
+    }
+
+    .block-stories .button-seeMore {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+}

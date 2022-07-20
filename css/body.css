@@ -4,10 +4,9 @@ html {
 
 .body {
     position: relative;
-    display:block;
+    display: block;
     max-width: 1440px;
     margin: 0 auto;
-    position: relative;
 }
 
 .info-block {

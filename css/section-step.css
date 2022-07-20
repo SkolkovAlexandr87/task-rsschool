@@ -63,6 +63,9 @@ figcaption {
 
 
 @media (max-width: 980px) {
+    .steps {
+        margin: 70px auto;
+    }
 
     h2 {
         font-size: 35px;
@@ -89,6 +92,11 @@ figcaption {
 }   
 
 @media (max-width: 656px) {
+
+    .steps {
+        margin: 50px auto;
+    }
+
     h2 {
         font-size: 24px;
     }
@@ -107,6 +115,13 @@ figcaption {
 }
 
 @media (max-width: 480px) {
+
+    .steps {
+        margin: 30px auto;
+        width: 100%;
+    }
+
+
     h2 {
         font-size: 20px;
     }
