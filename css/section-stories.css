@@ -78,7 +78,6 @@
     .box-story {
         justify-content: center;
         flex-direction: column-reverse;
-        margin-top: 45px;
     }
 
     .story-description {
@@ -147,30 +146,17 @@
     
 }
 
+
 @media (max-width: 480px) {
+
     .h2-storyes {
         margin-top: 30px;
      }
 
-    .box-story img {
-        width: 340px;
-        height: auto;
+    .block-stories {
+        margin-top: 18px;
+        padding-top: 24px;
     }
-
-    .box-story h3 {
-        font-size: 18px;
-    }
-
-    .box-story a,
-    .box-story p {
-        font-size: 14px;
-    }
-
-    
-}
-
-
-@media (max-width: 480px) {
 
     .box-story img {
         width: 340px;
@@ -190,6 +176,14 @@
 }
 
 @media (max-width: 390px) {
+    .block-stories {
+        margin-top: 15px;
+        padding-top: 18px;
+    }
+
+    .box-story {
+        margin-top: 24px;
+    }
 
     .box-story img {
         width: 200px;

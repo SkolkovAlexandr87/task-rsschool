@@ -6,6 +6,7 @@
     margin: 100px auto;
     margin-bottom: 0;
     width: 100%;
+    overflow: hidden;
 }
 
 .destination-img {
@@ -18,13 +19,18 @@
    margin-top: 40px;
 }
 
-.block-list-images {
+.block-list-image {
     position: relative;
+}
+
+.interior-block-list-images {
+    position: relative;
+    left: 0;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     margin-top: 45px;
-    overflow: hidden;
+    transition: all 0.3s ease-out 0.2s;
 }
 
 
@@ -83,12 +89,14 @@
     position: absolute;
     top: 6px;
     left: 0;
+    cursor: pointer;
 }
 
 .img-button-right {
     position: absolute;
     top: 6px;
     right: 0;
+    cursor: pointer;
 }
 
 @media (max-width: 1044px) {

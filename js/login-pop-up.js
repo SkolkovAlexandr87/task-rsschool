@@ -16,8 +16,6 @@ let scanningWidthBody = setInterval(function() {
     offsetWidthBody = body.offsetWidth;
 }, 100);
 
-console.log("bodyWidth: " + body.clientWidth);
-
 buttonLoginInHeader.addEventListener('click', clickButtonLogin );
 
 mainPopUp.addEventListener('click', closePopUp);

@@ -99,6 +99,10 @@ header li a:hover {
     .header-nav {
         margin-left: -3%;
     }
+
+    header button {
+        margin-top: 12px;
+    }
  }
 
 

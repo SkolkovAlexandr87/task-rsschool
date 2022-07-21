@@ -1,6 +1,7 @@
 let iconBurgerMenu = document.querySelector('.icon-burger-menu');
 let blockBurgerMenu = document.querySelector('.block-burger-menu');
 let boxBurgerMenu = document.querySelector('.box-burger-menu');
+let linkAccount = document.querySelector('.burger-menu-link-account');
 let delay = 300;
 
 iconBurgerMenu.addEventListener('click',appearanceBurgerMenu);
@@ -33,3 +34,5 @@ function hiddingBurgerMenu (event) {
 
     
 }
+
+linkAccount.addEventListener('click', clickButtonLogin);
